@@ -193,7 +193,7 @@ footer {
 footer a {
   color: fuchsia;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   nav li {
     display: inline;
   }
@@ -249,7 +249,7 @@ footer a {
   }
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 992px) {
   nav li {
     display: inline;
   }
@@ -338,7 +338,7 @@ footer a {
     font-weight: lighter;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   header {
     text-align: unset;
     padding: 1em;
