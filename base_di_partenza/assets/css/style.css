@@ -247,11 +247,260 @@ footer a {
     font-size: 1em;
     font-weight: lighter;
   }
-
 }
 
-@media screen and (min-width: 568px ){
-    
+@media screen and (min-width: 568px) {
+  nav li {
+    display: inline;
+  }
+  div img {
+    width: 30%;
+  }
+  header {
+    height: 150px;
+  }
+  header,
+  nav a {
+    font-weight: lighter;
+    padding: 3px;
+    font-size: 0.9em;
+  }
+  div #img {
+    width: 100%;
+  }
+  article h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    width: 78%;
+  }
+  article p,
+  article li {
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  article h2 {
+    font-weight: 600;
+  }
+
+  table {
+    font-size: 0.7em;
+    margin: 100px auto;
+    width: 400px;
+  }
+  table tr {
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  iframe {
+    height: 115px;
+  }
+
+  section,
+  section input,
+  section button {
+    font-size: 1.1em;
+  }
+
+  section input {
+    width: 350px;
+    height: 37px;
+    font-size: 10px;
+  }
+
+  section button {
+    font-weight: lighter;
+    font-size: 10px;
+    height: 35px;
+    width: 90px;
+  }
+
+  section h2 {
+    background-color: #44444446;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  aside h2 {
+    font-size: 1.8em;
+  }
+
+  aside div {
+    font-size: smaller;
+  }
+
+  footer {
+    font-size: 1em;
+    font-weight: lighter;
+  }
 }
-    
+@media screen and (min-width: 768px) {
+  header {
+    text-align: unset;
+    padding: 1em;
+    height: auto;
+  }
+  header div,
+  header div img,
+  header div p,
+  nav {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  header div,
+  nav {
+    width: 45%;
+  }
+  nav {
+    text-align: right;
+  }
+
+  div img {
+    width: 30%;
+  }
+
+  div #img {
+    width: 100%;
+  }
+
+  article h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  article p,
+  article li {
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  article h2 {
+    font-weight: 600;
+  }
+
+  table {
+    font-size: 0.7em;
+    margin: 100px auto;
+    width: 60%;
+  }
+  table tr {
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  iframe {
+    margin: 0 auto;
+    height: 150px;
+    width: 32%;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  section,
+  section input,
+  section button {
+    font-size: 1.1em;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 67%;
+    margin: 0 auto;
+  }
+
+  section input {
+    width: 350px;
+    height: 37px;
+    font-size: 10px;
+  }
+
+  section button {
+    font-weight: lighter;
+    font-size: 10px;
+    height: 35px;
+    width: 90px;
+  }
+
+  section h2 {
+    background-color: #44444446;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  aside h2 {
+    font-size: 1.8em;
+  }
+
+  aside {
+    width: 100%;
+    margin: 10px;
+  }
+  aside div {
+    font-size: smaller;
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+  }
+
+  footer {
+    font-size: 1em;
+    font-weight: lighter;
+  }
+}
+
+@media print {
+  article h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  article p,
+  article li {
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  article h2 {
+    font-weight: 600;
+  }
+
+  table {
+    font-size: 0.7em;
+    margin: 100px auto;
+    width: 60%;
+  }
+  table tr {
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  header {
+    visibility: hidden;
+  }
+  footer {
+    visibility: hidden;
+  }
+  iframe {
+    visibility: hidden;
+  }
+  section {
+    visibility: hidden;
+  }
+  aside {
+    visibility: hidden;
+  }
 }
