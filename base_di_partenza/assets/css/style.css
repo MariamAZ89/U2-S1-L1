@@ -265,7 +265,11 @@ strong {
   color: #a02571;
   font-weight: bold;
 }
-
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #969494;
+  border-radius: 5px;
+}
 iframe {
   width: 100%;
   height: auto;
@@ -378,6 +382,7 @@ button {
   .calender img,
   .arrow img {
     width: 40px;
+    height: 40px;
   }
 
   .plus {
@@ -404,7 +409,7 @@ aside h2 {
   color: #333;
   font-size: 2rem;
   font-weight: bold;
-
+  text-transform: uppercase;
   margin-bottom: 1em;
 }
 aside div {
@@ -435,7 +440,7 @@ footer {
   box-shadow: 0 3px 3px #444;
   color: #f0f0f0;
   padding: 1em;
-
+  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -447,7 +452,7 @@ footer {
     color: #bfbdbd;
     position: absolute;
     top: 10px;
-    left: 90%;
+    left: 93%;
   }
 }
 
